@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduford</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+      integrity="sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt="logo" /></a>
+
+        <div class="nav-links" id="nav-link">
+          <i class="fa-solid fa-xmark" onclick="hidemenu()"> </i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+<section class="blog-content">
+    <div class="row">
+        <div class="column-left">
+            <img src="eduford_img/certificate.jpg" alt="certificate">
+            <h2>Our Certificate & Online Programs For 2024</h2>
+            <p>In sollicitudin elit dolor. Suspendisse lacinia vitae mi et tincidunt. Etiam magna magna, bibendum non est in, hendrerit aliquet urna. Donec elementum, lectus non tempor laoreet, nisl tellus vestibulum felis, eget ornare neque ante vel arcu. Nullam nec vulputate ligula, suscipit congue velit. Ut elementum vulputate nulla suscipit pretium. Curabitur et mi urna. Vestibulum sit amet pulvinar erat, id varius lacus. Proin nunc mi, tempus auctor euismod in, bibendum id tortor. Quisque eget hendrerit enim. Etiam consectetur sapien nisl, in porta erat placerat eu. Maecenas fermentum nisi eget mi bibendum dignissim. Integer varius interdum est, eu mollis sem euismod a. Nullam eget blandit mi.
+
+                In sollicitudin elit dolor. Suspendisse lacinia vitae mi et tincidunt. Etiam magna magna, bibendum non est in, hendrerit aliquet urna. Donec elementum, lectus non tempor laoreet, nisl tellus vestibulum felis, eget ornare neque ante vel arcu. Nullam nec vulputate ligula, suscipit congue velit. Ut elementum vulputate nulla suscipit pretium. Curabitur et mi urna. Vestibulum sit amet pulvinar erat, id varius lacus. Proin nunc mi, tempus auctor euismod in, bibendum id tortor. Quisque eget hendrerit enim. Etiam consectetur sapien nisl, in porta erat placerat eu. Maecenas fermentum nisi eget mi bibendum dignissim. Integer varius interdum est, eu mollis sem euismod a. Nullam eget blandit mi.
+                
+                In sollicitudin elit dolor. Suspendisse lacinia vitae mi et tincidunt. Etiam magna magna, bibendum non est in, hendrerit aliquet urna. Donec elementum, lectus non tempor laoreet, nisl tellus vestibulum felis, eget ornare neque ante vel arcu. Nullam nec vulputate ligula, suscipit congue velit. Ut elementum vulputate nulla suscipit pretium. Curabitur et mi urna. Vestibulum sit amet pulvinar erat, id varius lacus. Proin nunc mi, tempus auctor euismod in, bibendum id tortor. Quisque eget hendrerit enim. Etiam consectetur sapien nisl, in porta erat placerat eu. Maecenas fermentum nisi eget mi bibendum dignissim. Integer varius interdum est, eu mollis sem euismod a. Nullam eget blandit mi.</p>
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form  class="comment-form">
+                    <input type="text"  placeholder="Enter Your Name">
+                    <input type="email"  placeholder="Enter Your Email">
+                    <textarea rows="5" placeholder=" your comments"></textarea>
+                    <button type="submit" class="hero-btn red-btn" >Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="column-right" >
+            <h3>Post Categories</h3>
+            <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+              </div>
+              <div>
+            <span>Technologies</span>
+            <span>23</span>
+              </div>
+              <div>
+            <span>Database Analytics</span>
+            <span>11</span>
+              </div>
+              <div>
+            <span>Artificial Intelligence</span>
+            <span>10</span>
+              </div>
+              <div>
+            <span>Machine Learning</span>
+            <span>41</span>
+              </div>
+              <div>
+            <span>Covid-19 Analytics</span>
+            <span>31</span>
+              </div>
+        </div>
+    </div>
+</section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+          We’re a leading research university with a heart. Founded in the decade
+          that the U.S. Constitution was signed, we’re the nation’s oldest
+          Catholic and Jesuit university. Today we’re a forward-looking, diverse
+          community devoted to social justice, restless inquiry and respect for
+          each person’s individual needs and talents.
+        </p>
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by Eduford</p>
+      </section>
+  
+      <script>
+        var navLinks = document.getElementById("nav-link");
+        function showmenu() {
+          navLinks.style.right = "0";
+        }
+        function hidemenu() {
+          navLinks.style.right = "-200px";
+        }
+      </script>
+    </body>
+  </html>
+  
